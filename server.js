@@ -13,7 +13,9 @@ app.use(express.text());
 
 app.get("/get", (req, res) => {
   console.log("GET");
-  res.send("GET ROUTE");
+  const receivedData = req.query.data;
+  console.log("Received data:", receivedData);
+  res.send(`Received data: ${receivedData}`);
 });
 
 app.post("/post", (req, res) => {
