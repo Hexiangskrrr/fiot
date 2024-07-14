@@ -18,7 +18,7 @@ app.get("/get", (req, res) => {
   res.send(`Received data: ${receivedData}`);
 });
 
-app.get("/get", (req, res) => {
+app.get("/", (req, res) => {
   console.log("/");
   res.send("hello from server");
 });
