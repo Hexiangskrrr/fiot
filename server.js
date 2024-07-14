@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const port = 1000;
+const port = process.env.PORT || 3000;
 
 app.use(
   cors({
@@ -18,9 +18,9 @@ app.get("/get", (req, res) => {
   res.send(`Received data: ${receivedData}`);
 });
 
-app.post("/post", (req, res) => {
-  console.log("POST");
-  res.send("Data received");
+app.get("/get", (req, res) => {
+  console.log("/");
+  res.send("hello from server");
 });
 
 app.listen(port, () => {
