@@ -1,0 +1,28 @@
+sample output of /getscore
+[
+  {
+    "score": 100,
+    "difficulty": 3,
+    "added_date": "2024-07-17T17:18:03.000Z"
+  },
+  {
+    "score": 66.67,
+    "difficulty": 3,
+    "added_date": "2024-07-17T17:18:15.000Z"
+  },
+  {
+    "score": 66.67,
+    "difficulty": 1,
+    "added_date": "2024-07-17T17:18:21.000Z"
+  },
+  {
+    "score": 33.33,
+    "difficulty": 1,
+    "added_date": "2024-07-17T17:18:26.000Z"
+  },
+  {
+    "score": 0,
+    "difficulty": 1,
+    "added_date": "2024-07-17T17:18:33.000Z"
+  }
+]
